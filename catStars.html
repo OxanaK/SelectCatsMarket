@@ -1,0 +1,540 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Мяндекс.Муррркет</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+<body>
+    <h1><span id="mySpan1">М</span>яндекс.<span id="mySpan1">М</span>уррркет. </h1>
+    <div id="typeGL">
+
+        <section>
+
+            <!--<label><b>View:</b></label>
+            Grid <input type="radio" class="view" id="grid" name="typeGL" checked />
+            List <input type="radio" class="view" id="list" name="typeGL" />-->
+
+            <ul class="cat_list">
+                <label><b>View:</b></label>
+                Grid
+                <input type="radio" class="view" id="grid" name="typeGL" checked />
+                List
+                <input type="radio" class="view" id="list" name="typeGL" />
+                <br />
+                <br />
+                <label><b>Select by:</b></label>
+                <br />
+                all cats
+                <input type="radio" id="all_cats" name="cat_type" checked />
+                only adults
+                <input type="radio" id="adult_cats" name="cat_type" />
+                only kittens
+                <input type="radio" id="kitten_cats" name="cat_type" />
+                <br />
+                <!--////////Siamese kitten////////////-->
+                <li class="li_grid kitten_cat cat_list">
+                    <div class="description">
+                        <div class="div1">
+                            <div class="img_cat">
+                                <img img src="Siamese_kitten.jpg" />
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <a href="https://en.wikipedia.org/wiki/Siamese_cat" class="breeds"><h2>Siamese</h2></a>
+                            <div class="cat_type" id="kitten_cat">
+                                <label class="type_label">kitten </label>
+                            </div>
+
+                            <div class="rating">
+
+                                <input type="radio" id="star56" name="rating6" /><label class="full" for="star56" ></label>
+                                <input type="radio" id="star4half6" name="rating6"  /><label class="half" for="star4half6" ></label>
+                                <input type="radio" id="star46" name="rating6"  /><label class="full" for="star46" ></label>
+                                <input type="radio" id="star3half6" name="rating6"  /><label class="half" for="star3half6"></label>
+                                <input type="radio" id="star36" name="rating6" /><label class="full" for="star36" ></label>
+                                <input type="radio" id="star2half6" name="rating6"  /><label class="half" for="star2half6" ></label>
+                                <input type="radio" id="star26" name="rating6"  /><label class="full" for="star26" ></label>
+                                <input type="radio" id="star1half6" name="rating6"  /><label class="half" for="star1half6"></label>
+                                <input type="radio" id="star16" name="rating6" /><label class="full" for="star16" ></label>
+                                <input type="radio" id="starhalf6" name="rating6" /><label class="half" for="starhalf6" ></label>
+                            </div>
+                            <br style="line-height:35px" />
+                            <div id="but_cost">
+                                <samp class="cost">$1500.00</samp>
+                            </div>
+                        </div>
+                        <div class="div3">
+                            <p class="cat_description">
+                                <b>Item description</b><br />
+                                nickname: unknown<br />
+                                sex: male <br />
+                                was born: September 2018<br />
+                                approximately 3 pounds <br />
+                                litterbox trained <br />
+                                okay with other cats and dogs<br />
+                                okay with small children<br />
+                                bonus: free cat three <br />
+                                shipping: free <br />
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <!--//////////N Forest Cat Adult//////////-->
+                <li class="li_grid adult_cat cat_list">
+                    <div class="description">
+                        <div class="div1">
+                            <div class="img_cat">
+                                <img src="norwegian forest cat.jpg" />
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <a href="https://en.wikipedia.org/wiki/Norwegian_Forest_cat" class="breeds"><h2>Norwegian Forest Cat</h2></a>
+                            <div class="cat_type" id="adult_cat">
+                                <label class="type_label"> adult cat </label>
+                            </div>
+                            <!--<div class="div_stars">-->
+                            <div>
+                                <div class="rating">
+                                    <input type="radio" id="star59" name="rating9"  /><label class="full" for="star59" ></label>
+                                    <input type="radio" id="star4half9" name="rating9"  /><label class="half" for="star4half9" ></label>
+                                    <input type="radio" id="star49" name="rating9" /><label class="full" for="star49" ></label>
+                                    <input type="radio" id="star3half9" name="rating9" /><label class="half" for="star3half9" ></label>
+                                    <input type="radio" id="star39" name="rating9"/><label class="full" for="star39" ></label>
+                                    <input type="radio" id="star2half9" name="rating9"  /><label class="half" for="star2half9"></label>
+                                    <input type="radio" id="star29" name="rating9"  /><label class="full" for="star29" ></label>
+                                    <input type="radio" id="star1half9" name="rating9"  /><label class="half" for="star1half9"></label>
+                                    <input type="radio" id="star19" name="rating9"  /><label class="full" for="star19" ></label>
+                                    <input type="radio" id="starhalf9" name="rating9"  /><label class="half" for="starhalf9" ></label>
+                                </div>
+                            </div>
+                            <br style="line-height:35px" />
+                            <div id="but_cost">
+                                <samp class="cost">$700.00</samp>
+                            </div>
+                        </div>
+
+                        <div class="div3">
+                            <p class="cat_description">
+                                <b>Item description</b><br />
+                                nickname: Sem<br />
+                                sex: male<br />
+                                was born: March 2017<br />
+                                approximately 9 pounds <br />
+                                litterbox trained <br />
+                                shipping: free <br />
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <!--////////Siberian Adult////////////-->
+                <li class="li_grid adult_cat cat_list">
+                    <div class="description">
+                        <div class="div1">
+                            <div class="img_cat">
+                                <img src="Siberian.jpg" />
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <a href="https://en.wikipedia.org/wiki/Siberian_cat" class="breeds"><h2>Siberian</h2></a>
+                            <div class="cat_type" id="adult_cat">
+                                <label class="type_label"> adult cat </label>
+                            </div>
+                            <!--<div class="div_stars">-->
+                                <div>
+                                    <div class="rating">
+                                        <input type="radio" id="star51" name="rating1"  /><label class="full" for="star51" ></label>
+                                        <input type="radio" id="star4half1" name="rating1"  /><label class="half" for="star4half1" ></label>
+                                        <input type="radio" id="star41" name="rating1" /><label class="full" for="star41" ></label>
+                                        <input type="radio" id="star3half1" name="rating1"  /><label class="half" for="star3half1"></label>
+                                        <input type="radio" id="star31" name="rating1" /><label class="full" for="star31" ></label>
+                                        <input type="radio" id="star2half1" name="rating1"  /><label class="half" for="star2half1" ></label>
+                                        <input type="radio" id="star21" name="rating1" /><label class="full" for="star21" ></label>
+                                        <input type="radio" id="star1half1" name="rating1"/><label class="half" for="star1half1" ></label>
+                                        <input type="radio" id="star11" name="rating1" /><label class="full" for="star11" ></label>
+                                        <input type="radio" id="starhalf1" name="rating1"  /><label class="half" for="starhalf1"></label>
+                                    </div>
+                            </div>
+                            <br style="line-height:35px"/>
+                            <div id="but_cost">
+                                <samp class="cost">$550.00</samp> <samp class="old_cost">  $700.00</samp>
+                            </div>
+                        </div>
+                        
+                        <div class="div3">
+                            <p class="cat_description">
+                                <b>Item description</b><br />
+                                nickname: Lily<br />
+                                sex: female<br />
+                                was born: March 2018<br />
+                                approximately 8 pounds <br />
+                                litterbox trained <br />
+                                okay with other cats and dogs<br />
+                                okay with small children<br />
+                                shipping: free <br />
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <!--/////////American Bobtail Adult///////////-->
+                <li class="li_grid adult_cat cat_list">
+                    <div class="description">
+                        <div class="div1">
+                            <div class="img_cat">
+                                <img src="AmericanBobtail.jpg" />
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <a href="https://en.wikipedia.org/wiki/American_Bobtail" class="breeds"><h2>American Bobtail</h2></a>
+                            <div class="cat_type" id="adult_cat">
+                                <label class="type_label"> adult cat </label>
+                            </div>
+                            <!--<div class="div_stars">-->
+                            <div>
+                                <div  class="rating">
+                                    <input type="radio" id="star52" name="rating2" /><label class="full" for="star52" ></label>
+                                    <input type="radio" id="star4half2" name="rating2"  /><label class="half" for="star4half2" ></label>
+                                    <input type="radio" id="star42" name="rating2" /><label class="full" for="star42" ></label>
+                                    <input type="radio" id="star3half2" name="rating2" /><label class="half" for="star3half2" ></label>
+                                    <input type="radio" id="star32" name="rating2"  /><label class="full" for="star32" ></label>
+                                    <input type="radio" id="star2half2" name="rating2"  /><label class="half" for="star2half2" ></label>
+                                    <input type="radio" id="star22" name="rating2"  /><label class="full" for="star22" ></label>
+                                    <input type="radio" id="star1half2" name="rating2" /><label class="half" for="star1half2" ></label>
+                                    <input type="radio" id="star12" name="rating2" /><label class="full" for="star12" ></label>
+                                    <input type="radio" id="starhalf2" name="rating2"/><label class="half" for="starhalf2" ></label>
+                                </div>
+                            </div>
+                            <br style="line-height:35px" />
+                            <div id="but_cost">
+                                <samp class="cost">$400.00</samp>
+                            </div>
+                        </div>
+
+                        <div class="div3">
+                            <p class="cat_description">
+                                <b>Item description</b><br />
+                                nickname: Smokey <br />
+                                sex:  male <br />
+                                was born: January 2018<br />
+                                approximately 4 pounds <br />
+                                litterbox trained <br />
+                                okay with other cats and dogs<br />
+                                shipping: free <br />
+
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <!--/////////Egyptian Mau Kitten///////////-->
+                <li class="li_grid kitten_cat cat_list">
+                    <div class="description">
+                        <div class="div1">
+                            <div class="img_cat">
+                                <img img src="EgyptianMau kitten.jpg" />
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <a href="https://en.wikipedia.org/wiki/Egyptian_Mau" class="breeds"><h2>Egyptian Mau</h2></a>
+                            <div class="cat_type" id="kitten_cat">
+                                <label class="type_label">kitten</label>
+                            </div>
+
+                            <div class="rating">
+
+                                <input type="radio" id="star57" name="rating7"  /><label class="full" for="star57" ></label>
+                                <input type="radio" id="star4half7" name="rating7"  /><label class="half" for="star4half7"></label>
+                                <input type="radio" id="star47" name="rating7" /><label class="full" for="star47" ></label>
+                                <input type="radio" id="star3half7" name="rating7"  /><label class="half" for="star3half7"></label>
+                                <input type="radio" id="star37" name="rating7"  /><label class="full" for="star37" ></label>
+                                <input type="radio" id="star2half7" name="rating7" /><label class="half" for="star2half7" ></label>
+                                <input type="radio" id="star27" name="rating7" /><label class="full" for="star27"></label>
+                                <input type="radio" id="star1half7" name="rating7" /><label class="half" for="star1half7"></label>
+                                <input type="radio" id="star17" name="rating7"  /><label class="full" for="star17" ></label>
+                                <input type="radio" id="starhalf7" name="rating7"  /><label class="half" for="starhalf7" ></label>
+                            </div>
+                            <br style="line-height:35px" />
+                            <div id="but_cost">
+                                <samp class="cost">$1125.00</samp>
+                            </div>
+                        </div>
+                        <div class="div3">
+                            <p class="cat_description">
+                                <b>Item description</b><br />
+                                nickname: Milo<br />
+                                sex: male <br />
+                                was born: July 2018<br />
+                                approximately 3 pounds <br />
+                                litterbox trained <br />
+                                okay with other cats and dogs<br />
+                                okay with small children<br />
+                                bonus: free claw sharpener<br />
+                                shipping: free <br />
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <!--////////Birman Adult////////////-->
+                <li class="li_grid adult_cat cat_list">
+                    <div class="description">
+                        <div class="div1">
+                            <div class="img_cat">
+                                <img src="Birman.jpg" />
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <a href="https://en.wikipedia.org/wiki/American_Bobtail" class="breeds"><h2>Birman</h2></a>
+                            <div class="cat_type" id="adult_cat">
+                                <label class="type_label"> adult cat </label>
+                            </div>
+                            <!--<div class="div_stars">-->
+                            <div>
+                                <div class="rating">
+                                    <input type="radio" id="star510" name="rating10"  /><label class="full" for="star510" ></label>
+                                    <input type="radio" id="star4half10" name="rating10"  /><label class="half" for="star4half10" ></label>
+                                    <input type="radio" id="star410" name="rating10"  /><label class="full" for="star410" ></label>
+                                    <input type="radio" id="star3half10" name="rating10" /><label class="half" for="star3half10" ></label>
+                                    <input type="radio" id="star310" name="rating10" /><label class="full" for="star310" ></label>
+                                    <input type="radio" id="star2half10" name="rating10" /><label class="half" for="star2half10" ></label>
+                                    <input type="radio" id="star210" name="rating10" /><label class="full" for="star210" ></label>
+                                    <input type="radio" id="star1half10" name="rating10"  /><label class="half" for="star1half10" ></label>
+                                    <input type="radio" id="star110" name="rating10" /><label class="full" for="star110" ></label>
+                                    <input type="radio" id="starhalf10" name="rating10"  /><label class="half" for="starhalf10" ></label>
+                                </div>
+                            </div>
+                            <br style="line-height:35px" />
+                            <div id="but_cost">
+                                <samp class="cost">$550.00</samp> <samp class="old_cost">  $500.00</samp>
+                            </div>
+                        </div>
+
+                        <div class="div3">
+                            <p class="cat_description">
+                                <b>Item description</b><br />
+                                nickname: Daisy<br />
+                                sex:  female<br />
+                                was born: February 2018<br />
+                                approximately 5 pounds <br />
+                                litterbox trained <br />
+                                okay with other cats and dogs<br />
+                                okay with small children<br />
+                                shipping: free <br />
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <!--////////Sphynx Adult////////////-->
+                <li class="li_grid adult_cat cat_list">
+                    <div class="description">
+                        <div class="div1">
+                            <div class="img_cat">
+                                <img img src="Sphynx.jpg" />
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <a href="https://en.wikipedia.org/wiki/Sphynx_cat" class="breeds"><h2>Sphynx</h2></a>
+                            <div class="cat_type" id="adult_cat">
+                                <label class="type_label"> adult cat </label>
+                            </div>
+                                <div class="rating">
+
+                                    <input type="radio" id="star53" name="rating3" /><label class="full" for="star53" ></label>
+                                    <input type="radio" id="star4half3" name="rating3"  /><label class="half" for="star4half3" ></label>
+                                    <input type="radio" id="star43" name="rating3" /><label class="full" for="star43" ></label>
+                                    <input type="radio" id="star3half3" name="rating3"  /><label class="half" for="star3half3" ></label>
+                                    <input type="radio" id="star33" name="rating3"  /><label class="full" for="star33" ></label>
+                                    <input type="radio" id="star2half3" name="rating3"  /><label class="half" for="star2half3" ></label>
+                                    <input type="radio" id="star23" name="rating3" /><label class="full" for="star23"></label>
+                                    <input type="radio" id="star1half3" name="rating3" /><label class="half" for="star1half3" ></label>
+                                    <input type="radio" id="star13" name="rating3" /><label class="full" for="star13" ></label>
+                                    <input type="radio" id="starhalf3" name="rating3" /><label class="half" for="starhalf3" ></label>
+                                </div>
+                            <br style="line-height:35px" />
+                            <div id="but_cost">
+                                <samp class="cost">$750.00</samp>
+                            </div>
+                        </div>
+                        <div class="div3">
+                            <p class="cat_description">
+                                <b>Item description</b><br />
+                                nickname: Leo<br />
+                                sex: male<br />
+                                was born: December 2017<br />
+                                approximately 8 pounds <br />
+                                litterbox trained <br />
+                                okay with other cats and dogs<br />
+                                okay with small children<br />
+                                shipping: free <br />
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <!--///////////Turkish Van Adult/////////-->
+                <li class="li_grid adult_cat cat_list">
+                    <div class="description">
+                        <div class="div1">
+                            <div class="img_cat">
+                                <img src="TurkishVan.jpg" />
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <a href="https://en.wikipedia.org/wiki/Turkish_Van" class="breeds"><h2>Turkish Van</h2></a>
+                            <div class="cat_type" id="adult_cat">
+                                <label class="type_label"> adult cat </label>
+                            </div>
+                           <!--<div class="div_stars">-->
+                            <div>
+                                <div class="rating">
+                                    <input type="radio" id="star54" name="rating4"  /><label class="full" for="star54" ></label>
+                                    <input type="radio" id="star4half4" name="rating4" /><label class="half" for="star4half4" ></label>
+                                    <input type="radio" id="star44" name="rating4"  /><label class="full" for="star44"></label>
+                                    <input type="radio" id="star3half4" name="rating4" /><label class="half" for="star3half4" ></label>
+                                    <input type="radio" id="star34" name="rating4"/><label class="full" for="star34" ></label>
+                                    <input type="radio" id="star2half4" name="rating4"  /><label class="half" for="star2half4" ></label>
+                                    <input type="radio" id="star24" name="rating4"  /><label class="full" for="star24" ></label>
+                                    <input type="radio" id="star1half4" name="rating4"  /><label class="half" for="star1half4" ></label>
+                                    <input type="radio" id="star14" name="rating4"  /><label class="full" for="star14" ></label>
+                                    <input type="radio" id="starhalf4" name="rating4" /><label class="half" for="starhalf4" ></label>
+                                </div>
+                            </div>
+                            <br style="line-height:35px" />
+                            <div id="but_cost">
+                                <samp class="cost">$250.00</samp>
+                            </div>
+                        </div>
+
+                        <div class="div3">
+                            <p class="cat_description">
+                                <b>Item description</b><br />
+                                nickname: Murka<br />
+                                sex: female <br />
+                                was born: July 2018<br />
+                                approximately 5 pounds <br />
+                                litterbox trained <br />
+                                okay with other cats and dogs<br />
+                                shipping: $50.00 <br />
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <!--/////////Blue Russian Kitten///////////-->
+                <li class="li_grid kitten_cat cat_list">
+                    <div class="description">
+                        <div class="div1">
+                            <div class="img_cat">
+                                <img img src="blue-russian-kitten.jpg" />
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <a href="https://en.wikipedia.org/wiki/Russian_Blue" class="breeds"><h2>Russian Blue</h2></a>
+                         <div class="cat_type" id="kitten_cat">
+                                <label class="type_label">kitten</label>
+                            </div>
+
+                            <div class="rating">
+
+                                <input type="radio" id="star55" name="rating5" /><label class="full" for="star55" ></label>
+                                <input type="radio" id="star4half5" name="rating5"  /><label class="half" for="star4half5" ></label>
+                                <input type="radio" id="star45" name="rating5"  /><label class="full" for="star45" ></label>
+                                <input type="radio" id="star3half5" name="rating5"  /><label class="half" for="star3half5" ></label>
+                                <input type="radio" id="star35" name="rating5" /><label class="full" for="star35" ></label>
+                                <input type="radio" id="star2half5" name="rating5"  /><label class="half" for="star2half5" ></label>
+                                <input type="radio" id="star25" name="rating5" /><label class="full" for="star25" ></label>
+                                <input type="radio" id="star1half5" name="rating5" /><label class="half" for="star1half5" ></label>
+                                <input type="radio" id="star15" name="rating5" /><label class="full" for="star15" ></label>
+                                <input type="radio" id="starhalf5" name="rating5" /><label class="half" for="starhalf5" ></label>
+                            </div>
+                            <br style="line-height:35px" />
+                            <div id="but_cost">
+                                <samp class="cost">$1000.00</samp>
+                            </div>
+                        </div>
+                        <div class="div3">
+                            <p class="cat_description">
+                                <b>Item description</b><br />
+                                nickname: Rey<br />
+                                sex: male <br />
+                                was born: September 2018<br />
+                                approximately 2 pounds <br />
+                                litterbox trained <br />
+                                okay with small children<br />
+                                bonus: free litter box <br />
+                                shipping: free <br />
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <!--//////////Somali Adult//////////-->
+                <li class="li_grid adult_cat cat_list">
+                    <div class="description">
+                        <div class="div1">
+                            <div class="img_cat">
+                                <img src="Somali.jpg" />
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <a href="https://en.wikipedia.org/wiki/Somali_cat" class="breeds"><h2>Somali</h2></a>
+                            <div class="cat_type" id="adult_cat">
+                                <label class="type_label"> adult cat </label>
+                            </div>
+                            <!--<div class="div_stars">-->
+                            <div>
+                                <div class="rating">
+                                    <input type="radio" id="star58" name="rating8"  /><label class="full" for="star58"></label>
+                                    <input type="radio" id="star4half8" name="rating8" /><label class="half" for="star4half8" ></label>
+                                    <input type="radio" id="star48" name="rating8" /><label class="full" for="star48" ></label>
+                                    <input type="radio" id="star3half8" name="rating8"  /><label class="half" for="star3half8" ></label>
+                                    <input type="radio" id="star38" name="rating8"  /><label class="full" for="star38" ></label>
+                                    <input type="radio" id="star2half8" name="rating8"  /><label class="half" for="star2half8" ></label>
+                                    <input type="radio" id="star28" name="rating8"  /><label class="full" for="star28" ></label>
+                                    <input type="radio" id="star1half8" name="rating8" /><label class="half" for="star1half8" ></label>
+                                    <input type="radio" id="star18" name="rating8" /><label class="full" for="star18" ></label>
+                                    <input type="radio" id="starhalf8" name="rating8"  /><label class="half" for="starhalf8" ></label>
+                                </div>
+                            </div>
+                            <br style="line-height:35px" />
+                            <div id="but_cost">
+                                <samp class="cost">$500.00</samp> <samp class="old_cost">$600.00</samp>
+                            </div>
+                        </div>
+
+                        <div class="div3">
+                            <p class="cat_description">
+                                <b>Item description</b><br />
+                                nickname: Max<br />
+                                sex:  male <br />
+                                was born: Novemder 2017<br />
+                                approximately 6 pounds <br />
+                                litterbox trained <br />
+                                okay with other dogs<br />
+                                okay with small children<br />
+                                shipping: free <br />
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+ body {
+            /*background-color: rgba(128, 128, 128, 0.09);*/
+            font-size: 1.5rem;
+        }
+
+        html {
+            font-size: 14px;
+        }
+        
+
+        h1 {
+            text-decoration: underline;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h2 {
+            padding-left: 3px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size:1.4em;
+        }
+         .div3{
+            height:320px;
+        }
+        .div1, .div2, .div3 {
+            width: 250px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: left;
+            align-items: center;
+            vertical-align: central;
+            display: inherit;
+            float: inherit;
+        }
+
+        #mySpan1 {
+            color: red;
+        }
+        .cat_type {
+            text-decoration: underline;
+            text-overflow: ellipsis;
+        }
+        .type_label
+        {
+            font-size:0.8em;
+        }
+        img {
+            max-height: 250px;
+            max-width: 250px;
+        }
+
+        .img_cat {
+            display: flex;
+            align-items: flex-end;
+            height: 250px;
+        }
+
+      
+        #grid:checked ~ .cat_list {
+            float: left;
+            margin: 10px;
+        }
+       
+        #list:checked ~ .cat_list {
+            list-style: none;
+            margin: 10px auto;
+            max-width: 920px;
+            max-height: 260px;
+            width: 100%;
+            padding: 0;
+        }
+
+            #list:checked ~ .cat_list .description {
+                float: left;
+                margin: 10px;
+                height: 330px;
+            }
+
+        .description {
+            /*background-color: antiquewhite;*/
+            border: 5px solid #fff;
+            list-style-type: none;
+        }
+ /************cost*******/
+        .cost {
+            color: #830b0b;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .old_cost {
+            text-decoration: line-through;
+            margin-left: 8px;
+            font-size: 15px;
+        }
+
+        .but_cost {
+            box-sizing: padding-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+/*********select****/
+        #kitten_cats:checked ~ .adult_cat {
+            display: none;
+        }
+
+        #adult_cats:checked ~ .kitten_cat {
+            display: none;
+        }
+
+        #all_cats:checked {
+            display: normal;
+        }
+
+        .cat_list {
+            list-style-type: none;
+        }
+
+      
+
+        .li_grid {
+            list-style-type: none;
+            float: inherit;
+            margin: inherit;
+            border: inherit;
+            max-height: inherit;
+        }
+
+        h1::after {
+            content: "\f1b0";
+            font-family: FontAwesome;
+        }
+ /******same extra needes*****/
+        h2:hover,
+        .type_label:hover {
+            color: red;
+        }
+          li:hover {
+            opacity: 0.7;
+        }
+
+        li {
+            padding-left: 10px;
+            vertical-align: top;
+        }
+
+        .cat_stars::before {
+            content: "\f006";
+            font-family: FontAwesome;
+            font-size: 20px;
+        }
+
+
+.cat_stars:active ~ .cat_stars
+{
+    content: "\f005";
+                font-family: FontAwesome;
+    color:red;
+    /*background-color:aquamarine;*/
+    font-size: 40px;
+}
+
+#but_cost {
+    position:absolute;
+}
+
+
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+
+/*****  Stars *****/
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+.rating > input:checked ~ label, 
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: orange;  } 
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, 
+.rating > input:checked ~ label:hover ~ label { color: #FFD700;  } 
