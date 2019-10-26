@@ -1,4 +1,4 @@
 # SelectCatsMarket
 HTML, CSS, list/grid/selection of cats
 
-https://oxanak.github.io/SelectCatsMarket/catStars.html
+Try it! ----> https://oxanak.github.io/SelectCatsMarket/catStars.html
