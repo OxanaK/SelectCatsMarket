@@ -1,4 +1,4 @@
-# Select Cat's Market
+# Select Cats Market
 
 creating a SPA by using blocks, inline-blocks, inline, combinators, positioning, selection, rating bars, visibility, text overflow, and pseudo-classes.         
 
